@@ -1,92 +1,90 @@
 body {
-  background-image: url(https://wallpaperaccess.com/full/7475102.png);
-  font-family: cursive;
-  padding: 20px;
-  color: white;
+    background-image: url(https://wallpaperaccess.com/full/7475102.png);
+    font-family: cursive;
+    padding: 20px;
+    color: white;
+  }
+  .survey-form {
+    text-align: center;
+    box-shadow: 0 0 20px 0 hsla(223,59%,31%,.8);
+    width: 200px;
+    margin: auto;
 }
-.survey-form {
-  text-align: center;
-  box-shadow: 0 0 20px 0 hsla(223,59%,31%,.8);
-  width: 200px;
-  margin: auto;
-  
-
-input[type="submit"] {
-  display: block;
-  width: 60%;
+    
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
   margin: 0 auto;
-  height: 2em;
-  font-size: 1.1rem;
+  padding-bottom: 2em;
 }
-  
+input, textarea {
+  background-color: #ff00bb;
+  border: 1px solid #0a0a23;
+  color: #000000;
 }
 
-.label {
-  text-align: center;
 }
-.title {
-  font-family: cursive;
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: linear-gradient(90deg, magenta, pink);
- 
+  }
   
-}
+  .label {
+    text-align: center;
+    
+  }
+  .title {
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: linear-gradient(90deg, magenta, pink);
+   
+    
+  }
 
 .form-control {
-margin: auto;
-text-align: center;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  
 }
-.subtitle {
-  font-family: cursive;
-  font-size: 18px;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: white;
-  text-align: center
-}
-
-
-
-h1, h2 {
+  .subtitle {
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center
+  }
+  
+p {
   text-align: center;
 }
-
-.block {
-width: 80%;
-background: linear-gradient(rgba(255,0,127, .8),rgba(100,0,255, .7));
-margin-left: auto;
-margin-right: auto;
-padding: 15px;
-max-width: 740px;
-box-shadow: 0 0 px 0 black;
-
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .block {
+  width: 80%;
+  background: linear-gradient(rgba(255,0,127, .8),rgba(100,0,255, .7));
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  max-width: 740px;
+  box-shadow: 0 0 px 0 black;  
 }
 
-
-/* FOOTER */
-
-footer {
-  font-size: 14px;
+button {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #ff00ba;
+  border-color: white;
+  min-width: 300px;
 }
 
-.address {
-  margin-bottom: 5px;
-}
-
-a {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: brown;
-}
-
-a:active {
-  color: brown;
-}
+  
+  
+  
