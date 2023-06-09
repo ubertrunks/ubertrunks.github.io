@@ -5,179 +5,163 @@ Project 1 survey form
 
 -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaron project 1</title>
-</head>
-
 <body>
-  <!--Title for the page-->>
- <div class="block">
-   
-   <h1 id="title" class="title">Aaron's Iced Tea survey</h1> 
-       <p id="description" class="subtitle">
-         Thanking you for taking the time to let me know about your iced tea preferences
-       </p>
-   <br>
-       <!--These are the forms for name email and age-->
-       <form id="survey-form">
+   <!--Title for the page-->>
+  <div class="block">
     
-           <div class="survey-form">
-             <label id="name-label" for="name">Name</label>
-             <br>
-             <input
-               type="text"
-               id="name"
-               class="form-control"
-               placeholder="Enter your name here"
-               required
-             />
-           </div>
-           <div class="survey-form">
-             <label id="email-label" for="email">Email</label>
-             <br>
-             <input
-               type="email"
-               name="email"
-               id="email"
-               class="form-control"
-               placeholder="Enter your Email here"
-               required
-             />
-           </div>
-           <div class="survey-form">
-             <label id="number-label" for="number"
-               >Age<span class="clue"></span></label>
-               <br>
-             <input
-               type="number"
-               name="age"
-               id="number"
-               min="18"
-               max="150"
-               class="form-control"
-               placeholder="Age"
-             />
-           </div>
-        
-         <br>
-           
-         <div class="form-group">
-           <p text-align="left"><b>How many cans of iced tea do you drink per week?</b></p>
-         <select id="dropdown" class="form-control survey-form" required>
-           <option disabled selected value>Select Amount</option>
-           <option value="1">0</option>
-           <option value="2">1 or 2</option>
-           <option value="3">3-5</option>
-           <option value="4">5+</option>
-         </select>
-       </div>
-       
-               
+    <h1 id="title" class="title">Aaron's Iced Tea survey</h1> 
+        <p id="description" class="subtitle">
+          Thanking you for taking the time to let me know about your iced tea preferences
+        </p>
+    <br>
+        <!--These are the forms for name email and age-->
+        <form id="survey-form">
+  
+            <div class="survey-form">
+              <label id="name-label" for="name">Name</label>
+              <br>
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name here"
+                required
+              />
+            </div>
+            <div class="survey-form">
+              <label id="email-label" for="email">Email</label>
+              <br>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your Email here"
+                required
+              />
+            </div>
+            <div class="survey-form">
+              <label id="number-label" for="number"
+                >Age<span class="clue"></span></label>
+                <br>
+              <input
+                type="number"
+                name="age"
+                id="number"
+                min="18"
+                max="150"
+                class="form-control"
+                placeholder="Age"
+              />
+            </div>
+          <br>
+          <div class="form-group">
+            <p text-align="left"><b>How many cans of iced tea do you drink per week?</b></p>
+          <select id="dropdown" class="form-control survey-form" required>
+            <option disabled selected value>Select Amount</option>
+            <option value="1">0</option>
+            <option value="2">1 or 2</option>
+            <option value="3">3-5</option>
+            <option value="4">5+</option>
+          </select>
+        </div>
+          <br>
 <div class="form-group">
- <p><b>What is your favorite flavor of tea?</b></p>
-         <label>
-           <input
-             name="flavor"
-             value="regular"
-             type="radio"
-             class="input-radio"
-             checked
-           />Regular Green Tea</label
-         >
-         <label>
-           <input
-             name="flavor"
-             value="mango"
-             type="radio"
-             class="input-radio"
-           />Mucho Mango</label
-         >
+  <p><b>What is your favorite flavor of tea?</b></p>
+          <label>
+            <input
+              name="flavor"
+              value="regular"
+              type="radio"
+              class="input-radio"
+              checked
+            />Regular Green Tea</label
+          >
+          <label>
+            <input
+              name="flavor"
+              value="mango"
+              type="radio"
+              class="input-radio"
+            />Mucho Mango</label
+          >
 
-         <label
-           ><input
-             name="flavor"
-             value="watermelon"
-             type="radio"
-             class="input-radio"
-           />Watermelon</label
-         >
- <label
-           ><input
-             name="flavor"
-             value="Punch"
-             type="radio"
-             class="input-radio"
-           />Fruit Punch</label
-         >
- <label
-           ><input
-             name="flavor"
-             value="other"
-             type="radio"
-             class="input-radio"
-           />Other</label
-         >
-       </div>
-        
-              
-         <div class="form-group">
-         <p>
-           <b>Why do you LOVE iced tea?</b>
- 
-         </p>
+          <label
+            ><input
+              name="flavor"
+              value="watermelon"
+              type="radio"
+              class="input-radio"
+            />Watermelon</label
+          >
+  <label
+            ><input
+              name="flavor"
+              value="Punch"
+              type="radio"
+              class="input-radio"
+            />Fruit Punch</label
+          >
+  <label
+            ><input
+              name="flavor"
+              value="other"
+              type="radio"
+              class="input-radio"
+            />Other</label
+          >
+        </div>
+         <br>
+          <div class="form-group">
+          <p>
+            <b>Why do you LOVE iced tea?</b>
+  
+          </p>
 
-         <label
-           ><input
-             name="taste"
-             value="sweet"
-             type="checkbox"
-             class="input-checkbox"
-           />It's sweet</label
-         >
-         <label>
-           <input
-             name="taste"
-             value="delicious"
-             type="checkbox"
-             class="input-checkbox"
-           />It's delicious</label
-         >
+          <label
+            ><input
+              name="taste"
+              value="sweet"
+              type="checkbox"
+              class="input-checkbox"
+            />It's sweet</label
+          >
+          <label>
+            <input
+              name="taste"
+              value="delicious"
+              type="checkbox"
+              class="input-checkbox"
+            />It's delicious</label
+          >
 
-         <label
-           ><input
-             name="taste"
-             value="juicy"
-             type="checkbox"
-             class="input-checkbox"
-           />It's juicy</label
-         >
- 
-       </div>
-     
-           
-         <div class="form-group">
-           <p><b>Please let me know of any flavors you would like to try or any comments, thanks!</b></p>
-         <textarea
-           id="comments"
-           class="input-textarea"
-           name="comment"
-           placeholder="Enter your comments here"
-         ></textarea>
-       </div>
-              
-         <div class="form-group">
-         <button type="submit" id="submit" class="submit-button">
-           Submit
-         </button>
-       </div>
-              
-     </form>
-   </div>
- </body>
+          <label
+            ><input
+              name="taste"
+              value="juicy"
+              type="checkbox"
+              class="input-checkbox"
+            />It's juicy</label
+          >
+   
+        </div>
+          <br>
+          <div class="form-group">
+            <p><b>Please let me know of any flavors you would like to try or any comments, thanks!</b></p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comments here"
+            rows="4" cols="67"
+          ></textarea>
+        </div>
+          <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
