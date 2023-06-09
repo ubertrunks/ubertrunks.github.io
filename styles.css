@@ -4,12 +4,7 @@ body {
     padding: 20px;
     color: white;
   }
-  .survey-form {
-    text-align: center;
-    box-shadow: 0 0 20px 0 hsla(223,59%,31%,.8);
-    width: 200px;
-    margin: auto;
-}
+
     
 form {
   width: 60vw;
