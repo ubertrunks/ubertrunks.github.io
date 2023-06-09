@@ -10,9 +10,7 @@ body {
   width: 200px;
   margin: auto;
   
-fieldset:last-of-type {
-  border-bottom: none;
-}
+
 input[type="submit"] {
   display: block;
   width: 60%;
@@ -25,14 +23,7 @@ input[type="submit"] {
 
 .label {
   text-align: center;
-  
 }
-fieldset {
-  border: none;
-  padding: 2rem 0;
-  border-bottom: 3px solid #ff0055;
-}
-
 .title {
   font-family: cursive;
   font-size: 40px;
