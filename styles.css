@@ -42,8 +42,8 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 95%;
-  padding: 8px;
+  width: 100%;
+  padding: auto;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
@@ -52,8 +52,8 @@ textarea {
 
 input[type="number"],
 select {
-  width: 95%%;
-  padding: 8px;
+  width: 100%%;
+  padding: auto;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
