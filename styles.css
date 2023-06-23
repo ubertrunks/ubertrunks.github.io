@@ -1,86 +1,95 @@
 
 body {
-    background-image: url(https://wallpaperaccess.com/full/7475102.png);
-    font-family: cursive;
-    padding: 20px;
-    color: white;
-  }
-
-    
-form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
+  font-family: Arial, sans-serif;
+  background-color: #F26A8D;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  
+}
+b {
+  font-size: 120%;
+  font-family: cursive;
+}
+/*  These are the Form Styles */
+.block {
+  max-width: 800px;
   margin: 0 auto;
-  padding-bottom: 2em;
-}
-input, textarea {
-  background-color: #ff00bb;
-  border: 1px solid #0a0a23;
-  color: #000000;
+  padding: 20px;
+  background: #F49CBB;
 }
 
-}
-  }
-  
-  .label {
-    text-align: center;
-    
-  }
-  .title {
-    font-family: cursive;
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: linear-gradient(90deg, magenta, pink);
-   
-    
-  }
-
-.form-control {
-  margin: auto;
-  text-align: center;
-  width: 90%;
-  
-}
-  .subtitle {
-    font-family: cursive;
-    font-size: 18px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: white;
-    text-align: center
-  }
-  
-p {
+.title {
   text-align: center;
 }
-  
-  h1, h2 {
-    text-align: center;
-  }
-  
-  .block {
-  width: 80%;
-  background: linear-gradient(rgba(255,0,127, .8),rgba(100,0,255, .7));
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  max-width: 740px;
-  box-shadow: 0 0 px 0 black;  
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-button {
+.survey-form {
+  margin-bottom: 15px;
+}
+
+label {
   display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #ff00ba;
-  border-color: white;
-  min-width: 300px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+/* These are the input styles and submit button styles*/
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: text;
 }
 
-  
-  
-  
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: text;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #DD2D4A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  .block {
+    padding: 10px;
+  }
+}
+
