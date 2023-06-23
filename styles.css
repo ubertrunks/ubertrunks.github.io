@@ -42,8 +42,8 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
-  padding: auto;
+  width: 95%;
+  padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
