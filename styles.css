@@ -7,6 +7,9 @@ body {
   padding: 0;
   
 }
+p {
+  font-family: Arial;
+}
 b {
   font-size: 150%;
 }
