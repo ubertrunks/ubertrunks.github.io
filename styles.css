@@ -43,6 +43,7 @@ label {
 /* These are the input styles and submit button styles*/
 input[type="text"],
 input[type="email"],
+input[type="number"],
 textarea {
   width: 100%;
   padding: auto;
@@ -50,9 +51,7 @@ textarea {
   border-radius: 4px;
   font-size: 14px;
   cursor: text;
-}
 
-input[type="number"],
 select {
   width: 100%%;
   padding: auto;
