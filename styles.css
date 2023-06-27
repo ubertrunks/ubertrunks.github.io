@@ -89,9 +89,9 @@ select {
 }
 
 
-@media (max-width: 600px) {
-  .block {
-    padding: 10px;
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
   }
 }
 
