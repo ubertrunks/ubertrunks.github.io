@@ -1,0 +1,76 @@
+/*
+Aaron Bishop
+Project2: Tribute page
+CIS133DA: Web Design/Development Level 1
+Mesa Community College
+6/28/23
+*/
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #C2C1A5;
+}
+
+header {
+  background-color: #515751;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #F5F9E9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*Styling the top of the page with the image and title*/
+#title {
+  margin-top: 0;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/*this is styling the list of dates on the timeline section*/
+ li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+ .date {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/*This is the event getting a background color to make it easy to read on the eyes*/
+.event {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
