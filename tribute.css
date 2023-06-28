@@ -14,7 +14,13 @@ body {
   background-color: #C2C1A5;
 }
 
-h1,h2 {
+header {
+  background-color: #515751;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
   background-color: #515751;
   color: #fff;
   text-align: center;
