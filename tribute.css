@@ -14,7 +14,7 @@ body {
   background-color: #C2C1A5;
 }
 
-header {
+h1,h2 {
   background-color: #515751;
   color: #fff;
   text-align: center;
