@@ -49,18 +49,13 @@ body {
   padding: 40px;
 }
 
-.project-tile1, .project-tile2 {
-  background-image: icedtea.png;
+.project-tile{
+
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
 }
-.project-tile2 {
-  background-image: jackie.png;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
+
 
 .project-tile h3 {
   font-size: 1.5rem;
