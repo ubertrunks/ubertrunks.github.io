@@ -54,6 +54,11 @@ body {
   padding: 20px;
   margin-bottom: 20px;
   background-color: #ffecb3; /* Pastel yellow */
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .project-tile h3 {
