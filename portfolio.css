@@ -81,7 +81,12 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: calc(33.33% - 20px); /* This is a calculation to change the size based on how many tiles there are */
+  width: 300px
+}
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-tile h3 {
