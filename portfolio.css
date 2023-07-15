@@ -7,9 +7,9 @@
 body {
   font-family: Arial, sans-serif;
 }
-
+/* This is setting up the styling for the top of the page with the nav bar */
 #navbar {
-  background-color: #333;
+  background-color: #f78df4; /* Vibrant pink */
   position: fixed;
   top: 0;
   width: 100%;
@@ -28,48 +28,47 @@ body {
 }
 
 #navbar ul li a:hover {
-  color: #999;
+  color: #e2aaff; /* Lighter pink */
 }
-
+/*The next parts setup the welcome section and the projects section*/
 #welcome-section {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #8ac5ff; /* Light blue */
 }
 
 #welcome-section h1 {
   font-size: 3rem;
   text-align: center;
-  color: #333;
+  color: #f78df4; /* Vibrant pink */
 }
 
 #projects {
   padding: 40px;
 }
 
-.project-tile{
-
+.project-tile {
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
+  background-color: #ffecb3; /* Pastel yellow */
 }
-
 
 .project-tile h3 {
   font-size: 1.5rem;
-  color: #333;
+  color: #f78df4; /* Vibrant pink */
 }
 
 .project-tile p {
-  color: #666;
+  color: #a68eff; /* Light purple */
 }
 
 .project-tile a {
   display: inline-block;
   margin-top: 10px;
-  background-color: #333;
+  background-color: #f78df4; /* Vibrant pink */
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -77,7 +76,7 @@ body {
 }
 
 .project-tile a:hover {
-  background-color: #666;
+  background-color: #e2aaff; /* Light pink */
 }
 
 @media (max-width: 768px) {
